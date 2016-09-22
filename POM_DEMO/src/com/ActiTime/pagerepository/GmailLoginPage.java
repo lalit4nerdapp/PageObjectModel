@@ -1,4 +1,4 @@
-package com.gmail.pagerepository;
+package com.ActiTime.pagerepository;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,13 +15,14 @@ public class GmailLoginPage {
     * through public getters and setters and now here our method which are using them in same class are those public getters and setters method
     * 
     */
+	
 	@FindBy(name = "Email")
 	private WebElement usernameField;
 
 	@FindBy(name = "signIn")
 	private WebElement nextBTN;
 
-	@FindBy(xpath = "//input[@type='password']")
+	@FindBy(name = "Passwd")
 	private WebElement pwdField;
 
 	@FindBy(id = "signIn")

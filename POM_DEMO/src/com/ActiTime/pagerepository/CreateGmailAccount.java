@@ -1,4 +1,4 @@
-package com.gmail.pagerepository;
+package com.ActiTime.pagerepository;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

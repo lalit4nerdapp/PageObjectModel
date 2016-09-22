@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.gmail.testcases.TestGmailLogin">
+      <class name="com.ActiTime.testcases.TestActiTimeLogin">
         <methods>
-          <include name="testLoginWithoutSession"/>
+          <include name="testloginwithoutsession"/>
           <include name="tearUp"/>
-          <include name="testLoginWithSession"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.gmail.testcases.TestGmailLogin -->
+      </class> <!-- com.ActiTime.testcases.TestActiTimeLogin -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

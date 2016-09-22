@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.gmail.testcases.TestGmailLogin"/>
+      <class name="com.ActiTime.testcases.TestActiTimeLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

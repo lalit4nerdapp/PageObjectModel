@@ -1,8 +1,8 @@
-package com.gmail.testcases;
+package com.ActiTime.testcases;
 
 import org.testng.annotations.Test;
 
-import com.gmail.pagerepository.GmailLoginPage;
+import com.ActiTime.pagerepository.GmailLoginPage;
 
 /*
  * Here we are using Inheritance because of code reusabilty. Now suppose we have 1000 testcases and for
@@ -19,7 +19,7 @@ public class TestGmailLogin extends SuperTestNG{
 	public void testLoginWithoutSession(){
 		GmailLoginPage glp = new GmailLoginPage(driver);
 		
-		glp.loginWithoutSessionSaved("p220690@gmail.com", "9717010079");
+		glp.loginWithoutSessionSaved("p220690@gmail.com","9717010079");
 	}
 	
 	@Test
