@@ -11,6 +11,7 @@ import com.ActiTime.utility.Waits;
 public class BasePage {
 
 	WebDriver driver;
+	
 	@FindBy(xpath="//div[text()='TASKS']")
 	private WebElement tasksLink;
 	

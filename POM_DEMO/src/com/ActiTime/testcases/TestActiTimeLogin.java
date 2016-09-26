@@ -12,7 +12,7 @@ import com.ActiTime.utility.Log;
 public class TestActiTimeLogin extends SuperTestNG {
 
 	@Test
-	public void testloginwithoutsession(){
+	public void testloginwithoutsession() throws Exception{
 		
 		BasePage bp = new BasePage(driver);
 		LoginPage lp = new LoginPage(driver);
@@ -26,7 +26,10 @@ public class TestActiTimeLogin extends SuperTestNG {
 		
 		lp.loginwithoutsession("Lalit101291", "epE8AVED");
 		bp.clicktask();
+		tp.closepopup();
 		tp.addNewTask();
+		tp.enterCustomer("SDGC");
+		tp.enterProject("XYZ Demo");
 		try {
 			Thread.sleep(6000);
 		} catch (InterruptedException e) {
