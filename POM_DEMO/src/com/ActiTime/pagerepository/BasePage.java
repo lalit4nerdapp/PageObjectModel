@@ -23,7 +23,7 @@ public class BasePage {
 	
 	
 	public void clicktask(){
-		Waits.waitforvisibility(driver, tasksLink);
+		//Waits.waitforvisibility(driver, tasksLink);
 		tasksLink.click();
 	}
 }

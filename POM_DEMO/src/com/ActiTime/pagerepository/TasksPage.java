@@ -11,7 +11,7 @@ import com.ActiTime.utility.Waits;
 
 public class TasksPage extends BasePage{
 
-	@FindBy(id="ext-gen39")
+	@FindBy(xpath="//span[text()='Create Tasks']")
 	private WebElement createtasks;
 	
 	@FindBy(id="ext-gen33")
@@ -40,6 +40,13 @@ public class TasksPage extends BasePage{
 	
 	@FindBy(xpath="//tbody/tr[1]/td/input[@placeholder='Enter task name']")
 	private WebElement task1;
+	
+	@FindBy(xpath="//tbody/tr[1]/td/input[@placeholder='Enter task name']/../..//td[@class='billingTypeCell']//button")
+	private WebElement billingType1;
+	
+	@FindBy(xpath="//div[@class='buttonIcon']/span[text()='Create Tasks']")
+	private WebElement createTaskBTN;
+	
 	
 	
 	public TasksPage(WebDriver driver){
@@ -77,4 +84,17 @@ public class TasksPage extends BasePage{
 		this.projectName.sendKeys(projectName);
 	}
 	
+	public void enterFirstTask(String taskname1){
+		task1.sendKeys(taskname1);
+	}
+	
+	public void selectFirstBilling(String billingtype){
+		billingType1.click();
+		
+		driver.findElement(By.xpath("//a[text()='"+billingtype+"']")).click();
+	}
+	
+	public void clickCreateTask(){
+		createTaskBTN.click();
+	}
 }

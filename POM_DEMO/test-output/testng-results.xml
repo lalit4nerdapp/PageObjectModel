@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="120133" started-at="2016-09-26T12:52:13Z" finished-at="2016-09-26T12:54:13Z">
+  <suite name="Default suite" duration-ms="115379" started-at="2016-09-27T11:58:07Z" finished-at="2016-09-27T12:00:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="120133" started-at="2016-09-26T12:52:13Z" finished-at="2016-09-26T12:54:13Z">
+    <test name="Default test" duration-ms="115379" started-at="2016-09-27T11:58:07Z" finished-at="2016-09-27T12:00:02Z">
       <class name="com.ActiTime.testcases.TestActiTimeLogin">
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.ActiTime.testcases.TestActiTimeLogin@4ef259d6]" name="tearUp" is-config="true" duration-ms="29317" started-at="2016-09-26T18:22:13Z" finished-at="2016-09-26T18:22:42Z">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.ActiTime.testcases.TestActiTimeLogin@94f025b]" name="tearUp" is-config="true" duration-ms="30864" started-at="2016-09-27T17:28:07Z" finished-at="2016-09-27T17:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="testloginwithoutsession()[pri:0, instance:com.ActiTime.testcases.TestActiTimeLogin@4ef259d6]" name="testloginwithoutsession" duration-ms="90770" started-at="2016-09-26T18:22:42Z" finished-at="2016-09-26T18:24:13Z">
+        <test-method status="PASS" signature="testloginwithoutsession()[pri:0, instance:com.ActiTime.testcases.TestActiTimeLogin@94f025b]" name="testloginwithoutsession" duration-ms="84465" started-at="2016-09-27T17:28:38Z" finished-at="2016-09-27T17:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testloginwithoutsession -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ActiTime.testcases.TestActiTimeLogin@4ef259d6]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-26T18:24:13Z" finished-at="2016-09-26T18:24:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ActiTime.testcases.TestActiTimeLogin@94f025b]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-27T17:30:02Z" finished-at="2016-09-27T17:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

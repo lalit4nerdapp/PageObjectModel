@@ -30,6 +30,10 @@ public class TestActiTimeLogin extends SuperTestNG {
 		tp.addNewTask();
 		tp.enterCustomer("SDGC");
 		tp.enterProject("XYZ Demo");
+		tp.enterFirstTask("O365 Skype Policies");
+		tp.selectFirstBilling("Billable");
+		tp.clickCreateTask();
+		
 		try {
 			Thread.sleep(6000);
 		} catch (InterruptedException e) {
