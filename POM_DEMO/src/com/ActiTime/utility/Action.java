@@ -15,4 +15,8 @@ public class Action {
 	public static void switchtoAlert(WebDriver driver){
 		
 	}
+	
+	public static void switchtoPopUp(WebDriver driver){
+		
+	}
 }
